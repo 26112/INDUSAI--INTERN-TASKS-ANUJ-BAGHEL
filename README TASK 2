@@ -1,0 +1,52 @@
+# 📺 Netflix Titles Data Explorer
+
+An interactive and insightful data exploration project analyzing global Netflix content to uncover trends, patterns, and statistics over time.
+
+## 📌 Project Overview
+
+This project performs **exploratory data analysis (EDA)** on the Netflix Titles dataset. It uncovers insights about content distribution, genres, production countries, and more. The goal is to provide data-driven answers to questions such as:
+
+- How has Netflix's content library evolved over time?
+- What are the most popular genres?
+- Which countries produce the most Netflix content?
+- How are movies and TV shows distributed?
+
+## 📊 Features & Analysis
+
+- ✅ Data cleaning and preprocessing
+- 📈 Year-wise content trends
+- 🌍 Country-wise content production
+- 🎭 Most common genres on Netflix
+- 🎬 TV Show vs Movie distribution
+
+## 🛠️ Tech Stack
+
+- **Python 3**
+- **Pandas** – for data manipulation  
+- **Matplotlib & Seaborn** – for data visualization  
+- **Google colab** – for interactive EDA
+
+## 📁 Files
+
+- `Netflix_Titles_Data_Explorer.ipynb` – Google colab containing full analysis
+- `README.md` – Project documentation
+
+## 🚀 How to Run the Project
+
+1. Clone the repository or download the project.
+2. Make sure you have the following Python libraries installed:
+
+```bash
+pip install pandas matplotlib seaborn
+📌 Dataset Source
+Dataset available on Kaggle:
+🔗 Netflix Movies and TV Shows Dataset
+
+📈 Key Insights
+Netflix’s content volume increased significantly after 2015.
+
+Most content belongs to genres like Drama, Comedy, and International content.
+
+The U.S. produces the most Netflix content, followed by India and the UK.
+
+TV Shows are growing more rapidly compared to Movies in recent years.
