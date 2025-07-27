@@ -1,0 +1,84 @@
+# 📺 Trending YouTube Videos – EDA & Interactive Dashboard
+
+This project performs a comprehensive **Exploratory Data Analysis (EDA)** on a dataset of trending YouTube videos. It uncovers powerful insights into viewer behavior, content popularity, and platform engagement patterns — all supported by beautiful **emoji-coded visualizations**, an **interactive Streamlit dashboard**, and a **PDF export report**.
+
+![YouTube Banner](https://img.shields.io/badge/YouTube-Trending-blue?style=for-the-badge&logo=youtube)
+
+---
+
+## 📊 Key Features
+
+- 🔥 Top 10 most viewed trending videos
+- 📈 Correlation analysis of views, likes, comments, and dislikes
+- 🏷️ Most commonly used tags (sampled for performance)
+- 🌍 Country-wise average engagement (likes/views)
+- ⏰ Heatmap showing popular trending hours and weekdays
+- 📊 Category-based performance visualization
+- 🖥️ Interactive **Streamlit dashboard** using Plotly
+- 📄 Exportable PDF report using `matplotlib.backends.backend_pdf`
+- 🎨 Emoji-coded titles for better storytelling and polish
+
+---
+
+## 🧰 Technologies Used
+
+| Tool/Library     | Purpose                           |
+|------------------|-----------------------------------|
+| `Pandas`         | Data wrangling & cleaning         |
+| `Matplotlib`     | Static plotting & PDF exporting   |
+| `Seaborn`        | Statistical data visualizations   |
+| `Plotly`         | Interactive charts (for dashboard)|
+| `Streamlit`      | Real-time interactive dashboard   |
+| `Jupyter`        | EDA and development notebook      |
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Install Dependencies
+```bash
+pip install pandas matplotlib seaborn streamlit plotly
+Trending_Youtube_Videos_Insights.ipynb
+streamlit run youtube_dashboard.py
+YouTube_EDA_Report.pdf
+📊 Sample Visualizations
+🔥 Top 10 Trending Videos (bar chart)
+
+📈 Views vs Likes (scatter plot with log scale)
+
+🧠 Correlation Heatmap (views, likes, comments, dislikes)
+
+💬 Top Tags (from 10,000 row sample)
+
+⏰ Trending Time Heatmap (day vs hour)
+
+📄 Exported Insights as printable PDF report
+
+📌 Insights Uncovered
+✅ Strong correlation between views and likes
+
+✅ Tags like "music", "official", "challenge" dominate the trending list
+
+✅ Engagement is highest on weekends and evenings
+
+✅ Music & Entertainment categories dominate in average views
+
+🛠 Future Enhancements
+🧠 NLP-based title sentiment analysis
+
+📈 Trend forecasting (time series analysis)
+
+☁️ Cloud-deployed dashboard on Streamlit Cloud or Heroku
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork the repo, open issues, or submit PRs for improvements, enhancements, or fixes.
+
+---
+
+
+
+
